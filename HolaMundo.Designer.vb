@@ -45,9 +45,10 @@ Partial Class frmHolaMundo
         '
         'btnPulsa
         '
-        Me.btnPulsa.Location = New System.Drawing.Point(123, 86)
+        Me.btnPulsa.Font = New System.Drawing.Font("Segoe UI", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPulsa.Location = New System.Drawing.Point(91, 95)
         Me.btnPulsa.Name = "btnPulsa"
-        Me.btnPulsa.Size = New System.Drawing.Size(148, 57)
+        Me.btnPulsa.Size = New System.Drawing.Size(253, 57)
         Me.btnPulsa.TabIndex = 2
         Me.btnPulsa.Text = "Pulsa aquí!"
         Me.btnPulsa.UseVisualStyleBackColor = True
